@@ -13,7 +13,7 @@ for(var i = 0; i < getQuote.length; i++) {
   getQuote[i].addEventListener("click", ()=>{
     swipe();
     setTimeout(function() {
-      window.location.href = "contact#message";
+      window.location.href = "contact.html#message";
     }, 1800);
   });
 };
