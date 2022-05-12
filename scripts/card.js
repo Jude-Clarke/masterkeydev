@@ -51,7 +51,7 @@ container.addEventListener("mouseleave", (e)=> {
     if(isFlipped()){
       card.style.transform = `rotateY(0deg) rotateX(0deg)`;
     } else {
-      card.style.transform = `rotateY(-26deg) rotateX(1.62496deg)`;
+      card.style.transform = `rotateY(0deg) rotateX(0deg)`;
       desc.style.transform = "translateZ(0px)";
       card.style.transition = "all 0.7s ease";
       img.style.transition = "-webkit-filter 0.7s ease";
@@ -61,7 +61,7 @@ container.addEventListener("mouseleave", (e)=> {
   if(isFlipped()){
     card.style.transform = `rotateY(0deg) rotateX(0deg)`;
   } else {
-    card.style.transform = `rotateY(-26deg) rotateX(1.62496deg)`;
+    card.style.transform = `rotateY(0deg) rotateX(0deg)`;
     desc.style.transform = "translateZ(0px)";
     card.style.transition = "all 0.7s ease";
     img.style.transition = "-webkit-filter 0.7s ease";
