@@ -192,7 +192,8 @@ header .get-quote:hover {
 .card {
 	width: 80%;
 	margin: 0 auto;
-	transform: rotateY(-26deg) rotateX(1.62496deg);
+	/* transform: rotateY(-26deg) rotateX(1.62496deg); */
+	transform: rotateY(0deg) rotateX(0deg);
 	transform-style: preserve-3d;
 	height: 466.536px;
 
