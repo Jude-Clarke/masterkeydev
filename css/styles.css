@@ -778,6 +778,7 @@ margin-bottom: 25px;
 }
 #happy-customers {
   background: url("../img/feedback-banner.png") no-repeat center;
+	background-size: cover;
 }
 #happy-customers img {
   margin-top: -150px;
@@ -1028,7 +1029,7 @@ footer
 }
 .contact-info-content {
   position: relative;
-  top: 50vh;
+  top: 65%;
   text-align: right;
   color: var(--gold);
 }
