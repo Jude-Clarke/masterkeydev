@@ -585,6 +585,7 @@ margin-bottom: 25px;
   display: flex;
   min-height: 100px;
   align-items: center;
+	justify-content: center;
 }
 #slider, #slider2 {
   width: 500px;
